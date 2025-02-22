@@ -22,3 +22,6 @@ print(weight*age)
 print(int(weight*age))
 age-=20
 print(age)
+number = 11
+number+=60
+print(number)
