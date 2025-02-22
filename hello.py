@@ -25,3 +25,8 @@ print(age)
 number = 11
 number+=60
 print(number)
+
+full_name = "MubashirHussain"
+surname = "Saleh"
+
+"{0} {1}".format(full_name, surname)
