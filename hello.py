@@ -20,3 +20,5 @@ print(relationshipStatus)
 print(type(relationshipStatus))
 print(weight*age)
 print(int(weight*age))
+age-=20
+print(age)
