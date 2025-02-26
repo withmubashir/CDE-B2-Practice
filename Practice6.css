@@ -1,0 +1,29 @@
+ul{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    
+}
+li{
+    list-style: none;
+    display: inline;
+}
+
+#box1{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    align-items: center;
+}
+
+#box2{
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}

@@ -1,0 +1,9 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-image: url(./Practice5.jpg);
+    background-size: cover;
+position: fixed;
+margin-left: 1230px;
+top: 0px;
+}

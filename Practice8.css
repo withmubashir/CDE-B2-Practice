@@ -1,0 +1,21 @@
+.loader{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 10px solid #B1C29E;
+    border-top: 10px solid #659287;
+    animation: loader 0.5s steps(10) 0s infinite;
+    margin-top: 200px;
+    margin-left: 520px;
+}
+@keyframes loader{
+    from{
+transform: rotate(0deg);
+    }
+    to{
+transform: rotate(360deg);
+    }
+}
+
+
+
