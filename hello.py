@@ -37,4 +37,4 @@ print(f"{full_name} {surname}")
 print(full_name +" "+surname)
 print(full_name+surname)
 
-print(full_name, surname, age, weight)
+print(Name, full_name, surname, age, weight)
