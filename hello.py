@@ -26,15 +26,10 @@ number = 11
 number+=60
 print(number)
 
-full_name = "MubashirHussain"
+full_name = "Mubashir Hussain"
 surname = "Saleh"
 
 print("{0} {1}".format(full_name, surname))
-
-full_name1 = "Mubashir Hussain"
-surname1 = "Saleh"
-
-print("{0} {1}".format(full_name1, surname1))
 
 print(f'{full_name}{surname}')
 print(f"{full_name}{surname}")
