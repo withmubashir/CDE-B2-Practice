@@ -11,10 +11,10 @@ age = 16                    #number type variable declare
 weight = 32.5               #floating type variable declare
 relationshipStatus = False  #Boolean type variable declare
 print(Name)
-print(type(Name))
-print(age)
 print(type(age))
+print(type(Name))
 print(weight)
+print(age)
 print(type(weight))
 print(relationshipStatus)
 print(type(relationshipStatus))
