@@ -10,16 +10,16 @@ Name = "Mubashir Hussain"   #string type variable declare
 age = 16                    #number type variable declare
 weight = 32.5               #floating type variable declare
 relationshipStatus = False  #Boolean type variable declare
-print(Name)
 print(type(age))
 print(type(Name))
+print(Name)
 print(weight)
 print(age)
+print(int(weight*age))
 print(type(weight))
 print(relationshipStatus)
 print(type(relationshipStatus))
 print(weight*age)
-print(int(weight*age))
 age-=20
 print(age)
 number = 11
