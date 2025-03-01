@@ -32,11 +32,10 @@ surname = "Saleh"
 print("{0} {1}".format(full_name, surname))
 print(full_name +" "+surname)
 
+print(Name, full_name, surname, age, weight)
 print(f"{full_name} {surname}")
 print(full_name+surname)
 print(f"{full_name}{surname}")
 print(f'{full_name}{surname}')
-
-print(Name, full_name, surname, age, weight)
 
 print(Name, full_name, surname, age, weight)
