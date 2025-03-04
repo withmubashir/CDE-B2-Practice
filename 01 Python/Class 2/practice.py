@@ -5,12 +5,15 @@ print(True or False) #or
 
 #List adding and changing elements
 countries = [
-"Pakistan",
+    "Pakistan",
     "China",
     "Afghanistan"
 ]
 
 
+print(countries[0])
+print(countries[2])
+print(countries[1])
 
 
 
