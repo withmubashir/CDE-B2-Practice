@@ -27,3 +27,9 @@ print(countries)
 countries[2] = "Italy"
 
 print(countries)
+
+#Lists: Taking Slice out of them
+
+print(countries[1:4])
+
+print(countries[:3])
