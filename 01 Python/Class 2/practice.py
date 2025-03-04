@@ -33,3 +33,5 @@ print(countries)
 print(countries[1:4])
 
 print(countries[:3])
+
+print(countries[2:])
