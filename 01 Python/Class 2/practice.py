@@ -53,3 +53,8 @@ print(countries)
 countries.remove("India")
 
 print(countries)
+
+#Lists: popping element
+
+country = countries.pop(1)
+
