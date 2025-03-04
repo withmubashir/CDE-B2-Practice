@@ -43,3 +43,13 @@ print(countries[-4:-1])
 print(countries[-5:-2])
 
 print(countries[-3:])
+
+#Lists: Deleting & Removing Elements
+
+del countries[0]
+
+print(countries)
+
+countries.remove("India")
+
+print(countries)
