@@ -35,3 +35,11 @@ print(countries[1:4])
 print(countries[:3])
 
 print(countries[2:])
+
+#print using negative index
+
+print(countries[-4:-1])
+
+print(countries[-5:-2])
+
+print(countries[-3:])
