@@ -58,3 +58,7 @@ print(countries)
 
 country = countries.pop(1)
 
+print(country)
+
+print(countries)
+
