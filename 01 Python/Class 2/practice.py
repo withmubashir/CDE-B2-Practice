@@ -20,5 +20,10 @@ countries.append("India")
 
 print(countries)
 
+countries.insert(0, "South Korea")
 
+print(countries)
 
+countries[2] = "Italy"
+
+print(countries)
