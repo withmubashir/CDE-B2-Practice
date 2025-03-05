@@ -77,3 +77,9 @@ if is_eligible:
     print("You Are Eligible")
 else:
     print("not eligible")
+
+age = 20
+if age >= 18:
+    print("You Are Eligible")
+else:
+    print("not eligible")
