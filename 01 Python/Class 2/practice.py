@@ -70,3 +70,10 @@ if is_ramadan:
     print("Timing: 10:00 to 1:00 PM")
 else:
     print("Timing: 06:00 to 9:00 PM")
+
+is_eligible = True
+
+if is_eligible:
+    print("You Are Eligible")
+else:
+    print("not eligible")
