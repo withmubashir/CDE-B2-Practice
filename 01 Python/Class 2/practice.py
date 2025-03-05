@@ -100,3 +100,15 @@ elif marks > 0 and marks <= 25:
     print("Grade F")
 else:
     print("Invalid Input")
+
+user_age = int(input("Enter Your Age"))
+user_gender = input("Enter Your Gender && M or F")
+# user_m_status = input("Enter Your Marital Status && Y or N")
+if user_gender == "F":
+    print("you can work only in urban areas")
+elif (user_gender == "M") and (user_age >= 20 and user_age < 40):
+    print("You can work anywhere")
+elif (user_gender == "M") and (user_age >= 40 and user_age < 60):
+    print("You can work anywhere")
+else:
+    print("Error")
