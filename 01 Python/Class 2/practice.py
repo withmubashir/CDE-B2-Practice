@@ -62,3 +62,11 @@ print(country)
 
 print(countries)
 
+#Conditional Statements
+
+is_ramadan = True
+
+if is_ramadan:
+    print("Timing: 10:00 to 1:00 PM")
+else:
+    print("Timing: 06:00 to 9:00 PM")
