@@ -21,3 +21,12 @@ num-=20
 num*=20
 num/=20
 print(num)
+
+english = 55
+islamiat = 67
+math = 100
+
+total_marks = 300
+
+numbers = english+islamiat+math
+print(numbers/total_marks*100)
