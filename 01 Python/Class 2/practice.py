@@ -4,11 +4,24 @@ print(True and False) #and
 print(True or False) #or
 
 #List adding and changing elements
-countries = [
+countries  = [
     "Pakistan",
     "China",
     "Afghanistan"
 ]
+
+countries1  = [
+    "Pakistan",
+    "China",
+    "Afghanistan"
+]
+
+countries2  = [
+    "Pakistan",
+    "China",
+    "Afghanistan"
+]
+
 
 print(type(countries))
 

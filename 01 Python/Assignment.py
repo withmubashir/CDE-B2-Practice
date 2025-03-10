@@ -30,3 +30,4 @@ total_marks = 300
 
 numbers = english+islamiat+math
 print(numbers/total_marks*100)
+
