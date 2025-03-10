@@ -31,3 +31,9 @@ total_marks = 300
 numbers = english+islamiat+math
 print(numbers/total_marks*100)
 
+service_year = int(input("enter your service time" ))
+salary = int(input("enter your salary" ))
+if service_year >= 5:
+    print(int(salary/20))
+else:
+    print("your service must equal or more than 5 year")
