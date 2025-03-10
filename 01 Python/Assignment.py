@@ -38,3 +38,10 @@ if service_year >= 5:
     print("Conratulations! You Got a Bonus of:", bonus)
 else:
     print("Sorry, you are not eligible for a bonus.")
+
+age = int(input("Enter Your Age"))
+
+if age > 17:
+    print("You're Eligible For Voting")
+else:
+    print("You Are Not Eligible For Voting")
