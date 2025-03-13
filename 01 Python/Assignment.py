@@ -45,3 +45,19 @@ if age > 17:
     print("You're Eligible For Voting")
 else:
     print("You Are Not Eligible For Voting")
+marks = int(input("Enter your Marks"))
+
+if marks > 80 and marks <= 100:
+    print("Grade A")
+elif marks > 60 and marks <= 80:
+    print("Grade B")
+elif marks > 50 and marks <= 60:
+    print("Grade C")
+elif marks > 45 and marks <= 50:
+    print("Grade D")
+elif marks > 25 and marks <= 45:
+    print("Grade E")
+elif marks > 0 and marks <= 25:
+    print("Grade F")
+else:
+    print("Invalid Input")
