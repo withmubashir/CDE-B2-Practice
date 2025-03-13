@@ -69,3 +69,11 @@ if remainder == 0:
     print("This is an Even Number")
 else:
     print("This is an Odd Number")
+
+number1 = int(input("Write a Number: "))
+remainder1 = number1%7
+
+if remainder1 == 0:
+    print("This number is divisible by 7")
+else:
+    print("This is not divisible by 7")
