@@ -60,20 +60,29 @@
 # elif marks > 0 and marks <= 25:
 #     print("Grade F")
 # else:
-#     print("Invalid Input")
+# #     print("Invalid Input")
 
-number = int(input("Write a Number: "))
-remainder = number%2
+# number = int(input("Write a Number: "))
+# remainder = number%2
 
-if remainder == 0:
-    print("This is an Even Number")
+# if remainder == 0:
+#     print("This is an Even Number")
+# else:
+#     print("This is an Odd Number")
+
+# number1 = int(input("Write a Number: "))
+# remainder1 = number1%7
+
+# if remainder1 == 0:
+#     print("This number is divisible by 7")
+# else:
+#     print("This is not divisible by 7")
+
+
+number3 = int(input("Enter a number: "))
+
+if number3%5 == 0:
+    print("Hello")
 else:
-    print("This is an Odd Number")
+    print("Bye")
 
-number1 = int(input("Write a Number: "))
-remainder1 = number1%7
-
-if remainder1 == 0:
-    print("This number is divisible by 7")
-else:
-    print("This is not divisible by 7")
