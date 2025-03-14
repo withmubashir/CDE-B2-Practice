@@ -86,10 +86,18 @@
 # else:
 #     print("Bye")
 
-shape_input = int(input("Enter the length: "))
-shape_input2 = int(input("Enter the breadth: "))
+# shape_input = int(input("Enter the length: "))
+# shape_input2 = int(input("Enter the breadth: "))
 
-if shape_input == shape_input2:
-    print("it's a squre shape")
+# if shape_input == shape_input2:
+#     print("it's a squre shape")
+# else:
+#     print("it's a rectangle shape")
+
+input_value = int(input("Enter the number: "))
+input_value2 = int(input("Enter the 2nd number : "))
+
+if input_value > input_value2:
+    print("input one is greator ", input_value )
 else:
-    print("it's a rectangle shape")
+    print("input two is greator ", input_value2)
