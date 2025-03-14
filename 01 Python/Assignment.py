@@ -94,10 +94,19 @@
 # else:
 #     print("it's a rectangle shape")
 
-input_value = int(input("Enter the number: "))
-input_value2 = int(input("Enter the 2nd number : "))
+# input_value = int(input("Enter the number: "))
+# input_value2 = int(input("Enter the 2nd number : "))
 
-if input_value > input_value2:
-    print("input one is greator ", input_value )
+# if input_value > input_value2:
+#     print("input one is greator ", input_value )
+# else:
+#     print("input two is greator ", input_value2)
+
+print("Our Product Price is 100")
+input_quantity = int(input("Enter Your Product Quantity: "))
+total_price = input_quantity*100
+discount_price = total_price - total_price/10
+if total_price >= 1000:
+    print("Your total cost is after 10% discount:", int(discount_price))
 else:
-    print("input two is greator ", input_value2)
+    print("you are not eligible for discount")
