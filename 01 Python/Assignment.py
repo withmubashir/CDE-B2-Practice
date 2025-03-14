@@ -79,10 +79,17 @@
 #     print("This is not divisible by 7")
 
 
-number3 = int(input("Enter a number: "))
+# number3 = int(input("Enter a number: "))
 
-if number3%5 == 0:
-    print("Hello")
+# if number3%5 == 0:
+#     print("Hello")
+# else:
+#     print("Bye")
+
+shape_input = int(input("Enter the length: "))
+shape_input2 = int(input("Enter the breadth: "))
+
+if shape_input == shape_input2:
+    print("it's a squre shape")
 else:
-    print("Bye")
-
+    print("it's a rectangle shape")
