@@ -220,3 +220,23 @@
 #     if new == 0: print("it is leap year")
 #     else:print("it is not leap year")
 
+age_1 = int(input("Enter Your Age: "))
+age_2 = int(input("Enter Your Age: "))
+age_3 = int(input("Enter Your Age: "))
+
+if age_1 >= age_2 and age_1 >= age_3:
+    oldest_age = age_1
+elif age_2 >= age_1 and age_2 >= age_3:
+    oldest_age = age_2
+else:
+    oldest_age = age_3
+
+if age_1 <= age_2 and age_1 <= age_3:
+    youngest_age = age_1
+elif age_2 <= age_1 and age_2 <= age_3:
+    youngest_age = age_2
+else:
+    youngest_age = age_3
+
+print(f"the oldest age is {oldest_age}")
+print(f"the youngest age is {youngest_age}")
