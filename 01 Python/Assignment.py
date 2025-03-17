@@ -167,11 +167,23 @@
 # classes_held = int(input("Enter the Numbers Of Classes Held"))
 # total_class = int((classes_attended / classes_held) * 100)
 
-# if total_class == 75:
+# if total_class >= 75:
 #     print("You are allowed to sit in exam")
 # else:
 #     print("You are not allowed to sit in exam")
 
+# 15) Modify the above question to allow student to sit if he/she has medical cause. Ask user if he/she has medical cause or not ( 'Y' or 'N' ) and print accordingly.
+
+# classes_attended1 = int(input("Enter the Numbers Of Classes Attended: "))
+# classes_held1 = int(input("Enter the Numbers Of Classes Held: "))
+# total_class1 = int((classes_attended1 / classes_held1) * 100)
+
+# if total_class1 >= 75:
+#     print("You are allowed to sit in exam")
+# else:
+#     cause = input("medical cause? 'Y' or 'N': ")
+#     if cause == "Y": print("You are allowed to sit in exam")
+#     else:print("You are not allowed to sit in exam")
 
 # Write a program to display the last digit of a number.
 # number4 = int(input("Enter any numbers: "))
@@ -196,7 +208,6 @@
 #     print(f"Total bill amount is Rs.{int(units*10)}")
 
 # 16) Write a program to check if a year is leap year or not.
-
 # If a year is divisible by 4 then it is leap year but if the year is century year like 2000, 1900, 2100 then it must be divisible by 400.
 # year = int(input("Enter any Year: "))
 # new = 0
@@ -209,15 +220,3 @@
 #     if new == 0: print("it is leap year")
 #     else:print("it is not leap year")
 
-# 15) Modify the above question to allow student to sit if he/she has medical cause. Ask user if he/she has medical cause or not ( 'Y' or 'N' ) and print accordingly.
-
-classes_attended = int(input("Enter the Numbers Of Classes Attended: "))
-classes_held = int(input("Enter the Numbers Of Classes Held: "))
-total_class = int((classes_attended / classes_held) * 100)
-
-if total_class >= 75:
-    print("You are allowed to sit in exam")
-else:
-    cause = input("medical cause? 'Y' or 'N': ")
-    if cause == "Y": print("You are allowed to sit in exam")
-    else:print("You are not allowed to sit in exam")
