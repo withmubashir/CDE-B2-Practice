@@ -220,6 +220,8 @@
 #     if new == 0: print("it is leap year")
 #     else:print("it is not leap year")
 
+# 13) Take input of age of 3 people by user and determine oldest and youngest among them.
+
 age_1 = int(input("Enter Your Age: "))
 age_2 = int(input("Enter Your Age: "))
 age_3 = int(input("Enter Your Age: "))
