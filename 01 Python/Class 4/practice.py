@@ -48,3 +48,9 @@ def new1():
     print("Hi!")
 
 new1()
+
+#function with default values
+
+def abc(num, num1):
+    print(3*4/num**num1)
+abc(2,3)
