@@ -26,6 +26,4 @@ Print True if a is greater than or equal to b. If not print False.
 a = int(input("Enter any number: "))
 b = int(input("Enter any number: "))
 
-c = a>=b
-
-print(c)
+print(a>=b)
