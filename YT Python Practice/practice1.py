@@ -9,7 +9,7 @@ print("SUM = ",num1+num2)
 
 side = int(input("Enter one side size of square: "))
 
-print("Total area of square is: ",side*side)
+print("Total area of square is: ",side**2)
 
 #WAP to input 2 floating point numbers & print their average.
 
