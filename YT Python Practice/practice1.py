@@ -10,3 +10,12 @@ print("SUM = ",num1+num2)
 side = int(input("Enter one side size of square: "))
 
 print("Total area of square is: ",side*side)
+
+#WAP to input 2 floating point numbers & print their average.
+
+float1 = float(input("Enter any Float Number: "))
+float2 = float(input("Enter any Float Number: "))
+
+print("Average of floating values is: ", (float1+float2)/2)
+
+
