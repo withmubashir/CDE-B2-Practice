@@ -54,3 +54,9 @@ new1()
 def abc(num, num1):
     print(3*4/num**num1)
 abc(2,3)
+
+#function with returning values
+
+def add(num1=0, num2=0, num3=0):
+    return num1+num2+num3
+print(add)
