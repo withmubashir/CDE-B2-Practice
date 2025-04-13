@@ -14,7 +14,7 @@ class car():
     def __init__(self, name : str, model:int, make:str):
         self.name = name
         self.model = model
-        self.year = year
+        self.make = make
         
     # Method with no attributes
     def drive(self):
@@ -30,10 +30,12 @@ class car():
         return mileage
 
 class sports_car(car):
-    def __init_(self, doors:int, roof:bool, spoiler:bool):
+    def __init__(self, doors:int, roof:bool, spoiler:bool):
         self.doors = doors
         self.roof = roof
         self.spoiler = spoiler
 
     def info(self):
-        return (f'{self.name} is a sports car designed by {self.make} in year {self.year} having {self.doors} doors.')
+        return (f'{self.name} is a sports car designed by {self.make} in year {self.model} having {self.doors} doors.')
+    
+cars = car("FXX", 2015, 'Ferrari')
