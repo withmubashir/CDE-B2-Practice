@@ -19,3 +19,11 @@ elif(u_input2 > u_input1 and u_input2 > u_input3):
 else:
     print(u_input3, "is the greatest number")
 
+# WAP to check if a number is multiple of 7 or NOT
+
+u_input = int(input("Enter any Number: "))
+
+if(u_input%7==0):
+    print(u_input, "is multiple of 7")
+else:
+    print(u_input, "is NOT multiple of 7")
