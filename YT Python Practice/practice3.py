@@ -21,3 +21,12 @@ if( new == list2):
     print(list2, "is palindrome")
 else:
     print(list2, "is NOT palindrome")
+
+
+#WAP to count the number of students with the “A” grade in the following tuple.
+
+tup = ("A","B","C","B","A","F","E","A","A","B","C","B","A","F","E","A","A","B","C","B","A","F","E","A")
+
+print(tup.count("A"))
+
+
