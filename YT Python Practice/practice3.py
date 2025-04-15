@@ -30,3 +30,11 @@ tup = ("A","B","C","B","A","F","E","A","A","B","C","B","A","F","E","A","A","B","
 print(tup.count("A"))
 
 
+#Store the above values in a list & sort them from “A” to “D”
+
+list3 = ["A","B","C","D","A","F","E","A","G","B","C","B","A","F","E","A","A","H","C","B","A","F","E","A"]
+
+list3.sort()
+
+print(list3)
+
