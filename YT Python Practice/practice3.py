@@ -10,3 +10,14 @@ lists.append(input2)
 lists.append(input3)
 
 print(lists)
+
+#WAP to check if a list contains a palindrome of elements. 
+
+list2 = ["m","a","p","m"]
+
+new = list2.copy()
+new.reverse()
+if( new == list2):
+    print(list2, "is palindrome")
+else:
+    print(list2, "is NOT palindrome")
