@@ -27,3 +27,13 @@ dict2 ["Math"] =  int(input("Enter Marks: "))
 dict2 ["Urdu"] =  int(input("Enter Marks: "))
 
 print(dict2)
+
+dict3 = {}
+x = int(input("Enter Marks: "))
+dict3.update( {"Physics" : x} )
+x = int(input("Enter Marks: "))
+dict3.update( {"Math" : x} )
+x = int(input("Enter Marks: "))
+dict3.update( {"Urdu" : x} )
+
+print(dict3)
