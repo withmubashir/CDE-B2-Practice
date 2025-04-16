@@ -17,3 +17,13 @@ subjects = {
 }
 
 print(len(subjects))
+
+#WAP to enter marks of 3 subjects from the user and store them in a dictionary. Start with an empty dictionary & add one by one. Use subject name as key & marks as value.
+
+dict2 = {}
+
+dict2 ["Physics"] =  int(input("Enter Marks: "))
+dict2 ["Math"] =  int(input("Enter Marks: "))
+dict2 ["Urdu"] =  int(input("Enter Marks: "))
+
+print(dict2)
